@@ -9,4 +9,4 @@ function sqCil (r, h) {
     console.log(res);
     return res;
 }
-let sqC = sqCil(2, 5);
+let sqC = sqCil(2, 7);
