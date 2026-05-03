@@ -1,3 +1,4 @@
+// – Створити 3 об’єкти, які описують книги. Поля об’єкту : title ,pageCount, genre, authors. Поле “автори” – являється  масивом. Кожен автор має поля name та age.
 let book1a = {
     title: `ABC`, pageCount: 250, genre: `AAA`,
     autors: [
