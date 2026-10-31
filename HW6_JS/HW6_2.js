@@ -11,3 +11,4 @@ console.log(L2);
 let leng3 = 'javascript is cool';
 const L3 = leng3.toUpperCase()
 console.log(L3);
+
