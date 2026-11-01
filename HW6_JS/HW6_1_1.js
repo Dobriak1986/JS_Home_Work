@@ -50,3 +50,13 @@ console.log(allDiamond);
 
 const cardClubs = deck.filter(card => card.cardSuit === 'clubs' && ['9', 'jack', 'queen', 'king', 'ace'].includes(card.value));
 console.log(cardClubs);
+
+const cardGroup = deck.reduce((acc, card) => {acc[card.cardSuit].push(card);
+    return acc;
+}, {
+    spade: [],
+    diamond: [],
+    heart: [],
+    clubs: []
+});
+console.log(cardGroup);
